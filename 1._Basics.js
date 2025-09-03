@@ -10,6 +10,7 @@ const lastName = "Latif";
 // show in the console
 // My first name is Anders and my last name is Latif
 
+console.log("My first name is", firstName, "and my last name is", lastName)
 
 // --------------------------------------
 // Exercise 2 - Numbers and Strings
@@ -21,5 +22,12 @@ const increment = 1;
 // The result should be 2025
 // You cannot touch the first or the second line
 
+const together = Number(year) + increment // convert String to Number - parse
+const together2 = parseInt(year) + increment // convert String to Number
+const together3 = +year + increment // convert String to Number
+
+console.log(together)
+console.log(together2)
+console.log(together3)
 
 // --------------------------------------
